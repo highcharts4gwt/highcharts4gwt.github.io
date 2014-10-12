@@ -1,0 +1,27 @@
+{% include header.html%}
+{% include nav.html%}
+
+
+
+<div id="overview">
+  <div class="wrapper">
+    
+    <div class="message">
+      <h1 id="{{site.project_name}}">{{site.project_name}}</h1>
+      <p>{{page.slogan}}</p>
+    </div>
+  </div>
+</div>
+
+
+<div id="content">
+<div class="wrapper">
+{{ content }}
+
+</div>
+</div>
+
+{% include footer.html%}
+
+
+
