@@ -5,11 +5,12 @@ title: Highcharts4gwt
 
 <div class="jumbotron">
   <h1>Highcharts wrapper for GWT</h1>
-  <h2>An always "up to date" GWT wrapper for highcharts</h2>
+  <h4>An always "up to date" GWT wrapper for highcharts</h4>
 </div>
 
 <div class="major-links">
-    <a href="{{site.github_page}}"><i class="fa fa-github"></i><span >Fork {{site.project_name}} !</span></a>
+    <a href="{{site.github_page}}"><i class="fa fa-github"></i><span >Visit on github {{site.project_name}} !</span></a>
+    <a href="{{site.demo_page}}"><span >Demo on App Engine</span></a>
 </div>
 
 [![Build Status](https://travis-ci.org/highcharts4gwt/highcharts4gwt.svg?branch=master)](https://travis-ci.org/highcharts4gwt/highcharts4gwt) [![Coverage Status](https://coveralls.io/repos/highcharts4gwt/highcharts4gwt/badge.png)](https://coveralls.io/r/highcharts4gwt/highcharts4gwt)

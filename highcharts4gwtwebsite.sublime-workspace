@@ -1,0 +1,329 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getDuration"
+			],
+			[
+				"time",
+				"timeLeft"
+			],
+			[
+				"production",
+				"productionPerMillis"
+			],
+			[
+				"cap",
+				"capacity"
+			],
+			[
+				"c",
+				"cppms"
+			],
+			[
+				"l",
+				"level"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"ou",
+				"output"
+			],
+			[
+				"reou",
+				"resourceType"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"s",
+				"small	Tag"
+			],
+			[
+				"pos",
+				"post-menu"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"background",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ronan/GitHub/highcharts4gwt/highcharts4gwt.github.io"
+	],
+	"file_history":
+	[
+		"/Users/ronan/GitHub/winamax-challenge-history/wch/pom.xml",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2014-07-28-gin-debug-tips.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_includes/headdefault.html",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2013-03-04-gwt-rest-jersey-server.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_layouts/post.html",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/blog.html",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2014-02-02-GWT-futur-javascript-interop.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2014-02-14-gwt-create-videos.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2013-03-04-gwt-rest-jersey-client.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2014-03-16-gwt-rest-app.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2014-03-16-jersey-guice.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2014-04-05-restygwt-video-introduction.markdown",
+		"/Users/ronan/GitHub/resty-gwt.github.io/source.markdown",
+		"/Users/ronan/GitHub/resty-gwt.github.io/index.markdown",
+		"/Users/ronan/GitHub/resty-gwt.github.io/documentation/restygwt-user-guide.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/index.html",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/.gitignore",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/about.html",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_layouts/index.html",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_layouts/defaultpost.html",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/css/default.css",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/css/animation.css",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_includes/navbar.html",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_includes/footer.html",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_includes/bodytohtml.html",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2013-03-03-activities-places-intro.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2013-08-02-presenter-for-nesting.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2012-08-06-chrome-dev-tools-right.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2013-08-23-google-io-gwt-videos.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2013-12-28-not-nesting-activities.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2012-08-08-douglas-crockford-video.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2012-12-12-javascript-object-comparison.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/css/post.css",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/css/2012-08-06-Chrome-dev-tools-right.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_includes/headtobody.html",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_includes/headIndexCharts.html",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_includes/htmltohead.html",
+		"/Volumes/Ronan/one2team/o3-client/src/com/one2team/client/bricklemedia/LiveGridComboBox.java",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2013-12-14-test-menu.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_includes/headpost.html",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2014-01-09-welcome-to-jekyll.markdown",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_layouts/default.html",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_config.yml",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_includes/head.html",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/css/index.css",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/stylesheets/pygment_trac.css",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/params.json",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_site/index.html",
+		"/Users/ronan/GitHub/ronanquillevere.github.io/_posts/2014-01-09-welcome-to-jekyll copy.markdown"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/ronan/Documents/Eclipse 4.2 Workspaces/gwtrestapp",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"var",
+			"RedirectionResponseFilter",
+			"red",
+			"### ",
+			"###",
+			"gwtrestappJUnit",
+			"###",
+			"Javascript",
+			";\n",
+			"	\n",
+			"https",
+			"	\n",
+			"    border:;",
+			"highlight ",
+			"{% highlight ",
+			"margin-left: auto;\n	margin-right: auto;",
+			"![mvc](/img/MVP.png)",
+			" {% if page.next.url %} ",
+			"        <",
+			"        ",
+			"a:hover",
+			"  font-size: 1.5rem;  ",
+			"  <div class=\"post-menu\">",
+			"	\n",
+			"        ",
+			"text-align: right;",
+			"display"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#### ",
+			"####",
+			"javascript",
+			"http"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "highcharts4gwtwebsite.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 312.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
