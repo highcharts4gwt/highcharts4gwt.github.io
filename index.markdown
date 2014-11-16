@@ -36,8 +36,8 @@ To know more about [moxiegroup](http://www.moxiegroup.com/) and their highcharts
 ## Status
 Still in development.<br/>
 
-Go to [Highcharts wrapper](https://github.com/highcharts4gwt/highcharts) to download the wrapper sources and test the wrapper. You can have a look to the [demo website]({{site.demo_page}}).<br/>
+Go to the [highcharts](https://github.com/highcharts4gwt/highcharts) repository to download the wrapper sources and test the wrapper. You can have a look to the [demo website]({{site.demo_page}}).<br/>
 
-The project "highcharts" is were I put all the highcharts chart options. It is cleaner so that the chart options are not mixed with the generator code. You can use that project to test the api in your gwt project.<br/>
+The [highcharts](https://github.com/highcharts4gwt/highcharts) repository is were I put all the highcharts chart options. It is cleaner so that the chart options are not mixed with the generator code. You can use that project to test the api in your gwt project.<br/>
 
 See the project readme for more info on how to use it.
