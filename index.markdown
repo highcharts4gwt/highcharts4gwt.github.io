@@ -17,7 +17,7 @@ title: Highcharts4gwt
 
 <br/>
 
-To know more about Highcharts please have a look to [the official web page](http://www.highcharts.com/products/highcharts)
+To know more about Highcharts please have a look to [highcharts web page](http://www.highcharts.com/products/highcharts)
 
 
 ##How can it be always up to date ? 
