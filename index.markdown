@@ -13,8 +13,6 @@ title: Highcharts4gwt
     <a href="{{site.demo_page}}"><span ><img src="/images/gcp-logo.png" width="37px"></img>Demo on App Engine</span></a>
 </div>
 
-[![Build Status](https://travis-ci.org/highcharts4gwt/highcharts4gwt.svg?branch=master)](https://travis-ci.org/highcharts4gwt/highcharts4gwt) [![Coverage Status](https://coveralls.io/repos/highcharts4gwt/highcharts4gwt/badge.png)](https://coveralls.io/r/highcharts4gwt/highcharts4gwt)
-
 <br/>
 
 To know more about Highcharts please have a look to [highcharts web page](http://www.highcharts.com/products/highcharts)
