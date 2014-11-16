@@ -30,16 +30,14 @@ The goal was to write an API that was as close as possible to the JavaScript API
 
 I have used moxie wrapper both for personal and professional projects. It works fine. Thanks a lot to them, it saved me lots of time ! But their wrapper does not seemed to be maintained anymore, plus I disagree with some of their design choices.
 
-To Knowles more about [Moxiegroup](http://www.moxiegroup.com/) and their highcharts wrapper [http://www.moxiegroup.com/moxieapps/gwt-highcharts/](http://www.moxiegroup.com/moxieapps/gwt-highcharts/), have a look to the sources of that project that can be found on [sourceforge](http://sourceforge.net/projects/gwt-highcharts/) 
+To know more about [moxiegroup](http://www.moxiegroup.com/) and their highcharts wrapper [http://www.moxiegroup.com/moxieapps/gwt-highcharts/](http://www.moxiegroup.com/moxieapps/gwt-highcharts/), have a look to the sources of that project that can be found on [sourceforge](http://sourceforge.net/projects/gwt-highcharts/) 
 
 
 ## Status
-v0 still in development.
+Still in development.<br/>
 
-Go to [Highcharts wrapper](https://github.com/highcharts4gwt/highcharts) to test the wrapper !
+Go to [Highcharts wrapper](https://github.com/highcharts4gwt/highcharts) to download the wrapper sources and test the wrapper. You can have a look to the [demo website]({{site.demo_page}}).<br/>
 
-I created a new project "highcharts" were I put all the chart options. It is cleaner so that the chart options are not mixed with the generator code. You can use that project to test the api in your gwt project. 
+The project "highcharts" is were I put all the highcharts chart options. It is cleaner so that the chart options are not mixed with the generator code. You can use that project to test the api in your gwt project.<br/>
 
 See the project readme for more info on how to use it.
-
-
