@@ -4,7 +4,7 @@ title: Highcharts4gwt
 ---
 
 <div class="jumbotron">
-  <h1>Highcharts wrapper for GWT</h1>
+  <h1><img src="/images/h4gwt.png" width="80px"></img>Highcharts wrapper for GWT</h1>
   <h4>An always "up to date" GWT wrapper for highcharts</h4>
 </div>
 
