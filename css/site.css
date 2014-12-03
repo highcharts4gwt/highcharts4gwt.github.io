@@ -275,3 +275,15 @@ i.number span.text {
     color: red;
     font-size: 2rem;
 }
+
+.navbar-brand span 
+{
+  top: -8px;
+  position: relative;
+  left: 5px;
+}
+
+.jumbotron h1,.jumbotron h2, .jumbotron h2, .jumbotron h4 
+{
+  text-align: center;
+} 
