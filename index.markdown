@@ -28,33 +28,33 @@ The goal was to write an API that was as close as possible to the JavaScript API
 
 
 {% highlight javascript %}
-    ChartOptions options = (ChartOptions) JavaScriptObject.createObject();
-    options.chart().type("column");
-    options.chart().margin().push(75);
-    options.chart().options3d().enabled(true).alpha(15).beta(15).depth(50).viewDistance(25);
+ChartOptions options = (ChartOptions) JavaScriptObject.createObject();
+options.chart().type("column");
+options.chart().margin().push(75);
+options.chart().options3d().enabled(true).alpha(15).beta(15).depth(50).viewDistance(25);
 
-    options.title().text("Chart rotation demo");
-    options.subtitle().text("Test options by dragging the sliders below");
+options.title().text("Chart rotation demo");
+options.subtitle().text("Test options by dragging the sliders below");
 
-    options.plotOptions().column().depth(25);
+options.plotOptions().column().depth(25);
 
-    Series series = (Series) JavaScriptObject.createObject();
+Series series = (Series) JavaScriptObject.createObject();
 
-    ArrayNumber data = series.dataAsArrayNumber();
-    data.push(29.9);
-    data.push(71.5);
-    data.push(106.4);
-    data.push(129.2);
-    data.push(144.0);
-    data.push(176.0);
-    data.push(135.6);
-    data.push(148.5);
-    data.push(216.4);
-    data.push(194.1);
-    data.push(95.6);
-    data.push(54.4);
+ArrayNumber data = series.dataAsArrayNumber();
+data.push(29.9);
+data.push(71.5);
+data.push(106.4);
+data.push(129.2);
+data.push(144.0);
+data.push(176.0);
+data.push(135.6);
+data.push(148.5);
+data.push(216.4);
+data.push(194.1);
+data.push(95.6);
+data.push(54.4);
 
-    options.series().addToEnd(series);
+options.series().addToEnd(series);
 {% endhighlight %}
 
 
