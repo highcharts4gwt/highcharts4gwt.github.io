@@ -27,7 +27,7 @@ This wrapper is generated using the JSON file that describes highcharts options.
 The goal was to write an API that was as close as possible to the JavaScript API so that by reading any example in JavaScript it would be easy to write it in GWT. To do that we use a fluent API. Here is what it looks like to create some chart options (GIN injection not used yet). You can see that the ChartOptions is a pure Java object and that there is no link at all with any widget.<br/><br/>
 
 
-{% highlight javascript %}
+{% highlight java %}
 ChartOptions options = (ChartOptions) JavaScriptObject.createObject();
 options.chart().type("column");
 options.chart().margin().push(75);
