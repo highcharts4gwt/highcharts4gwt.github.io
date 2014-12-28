@@ -17,16 +17,19 @@ title: Highcharts4gwt
 
 To know more about Highcharts please have a look to [highcharts web page](http://www.highcharts.com/products/highcharts)
 
+##How to use it
 
-##How can it be always up to date ? 
+With maven : <br/>
 
-This wrapper is generated using the JSON file that describes highcharts options. This is the same file that is used by highcharts to generate its documentation. We parse this file, then we generate the JSNI code for getter and setters method.
+{% highlight xml %}
+<dependency>
+    <groupId>com.github.highcharts4gwt</groupId>
+    <artifactId>highcharts</artifactId>
+    <version>0.0.1</version>
+</dependency>
+{% endhighlight %}
 
-##What does it look like in GWT ?
-
-The goal was to write an API that was as close as possible to the JavaScript API so that by reading any example in JavaScript it would be easy to write it in GWT. To do that we use a fluent API. Here is what it looks like to create some chart options (GIN injection not used yet). You can see that the ChartOptions is a pure Java object and that there is no link at all with any widget.<br/><br/>
-
-
+<<<<<<< Updated upstream
 {% highlight java %}
 ChartOptions options = (ChartOptions) JavaScriptObject.createObject();
 options.chart().type("column");
@@ -56,7 +59,50 @@ data.push(54.4);
 
 options.series().addToEnd(series);
 {% endhighlight %}
+=======
+<br/>
 
+Have a look to the <a href="{{site.demo_page}}"><span ><img src="/images/gcp-logo.png" width="37px"></img>demo on App Engine</span></a> you will find java code examples.
+
+##How can it be always up to date ? 
+
+This wrapper is generated using the JSON file that describes highcharts options. This is the same file that is used by highcharts to generate its documentation. We parse this file, then we generate the JSNI code for getter and setters method.
+
+##What does it look like in GWT ?
+
+The goal was to write an API that was as close as possible to the JavaScript API so that by reading any example in JavaScript it would be easy to write it in GWT. To do that we use a fluent API. Here is what it looks like to create some chart options (GIN injection not used yet). You can see that the ChartOptions is a pure Java object and that there is no link at all with any widget.<br/><br/>
+>>>>>>> Stashed changes
+
+{% highlight java %}
+ChartOptions options = (ChartOptions) JavaScriptObject.createObject();
+ 
+options.chart().type("column");
+options.chart().margin().push(75);
+options.chart().options3d().enabled(true).alpha(15).beta(15).depth(50).viewDistance(25);
+
+options.subtitle().text("Subtitle 3D");
+options.title().text("Title 3D");
+
+options.plotOptions().column().depth(25);
+
+Series series = (Series) JavaScriptObject.createObject();
+
+ArrayNumber data = series.data();
+data.push(29.9);
+data.push(71.5);
+data.push(106.4);
+data.push(129.2);
+data.push(144.0);
+data.push(176.0);
+data.push(135.6);
+data.push(148.5);
+data.push(216.4);
+data.push(194.1);
+data.push(95.6);
+data.push(54.4);
+
+options.series().addToEnd(series);
+{% endhighlight %}
 
 ##Why not using moxie wrapper ?
 

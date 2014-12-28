@@ -19,7 +19,9 @@ This generator was created with various design objectives, here they are :
 
 #### Generated code must be a [fluent api](http://en.wikipedia.org/wiki/Fluent_interface)
 
-	options.chart().options3d().enabled(true).alpha(15).beta(15).depth(50).viewDistance(25);
+{% highlight java %}
+options.chart().options3d().enabled(true).alpha(15).beta(15).depth(50).viewDistance(25);
+{% endhighlight %}
 
 #### Code should be as close as possible to the Javascript API
 
@@ -27,12 +29,15 @@ Setter and getters do not start with 'get' and 'set'. <br/><br/>
 
 Get the chart type
 
-	options.chart().type();
+{% highlight java %}
+options.chart().type();
+{% endhighlight %}
 
 Set the chart type
 
-	options.chart().type("column");
-
+{% highlight java %}
+options.chart().type("column");
+{% endhighlight %}
 
 #### Code must enable Junit testing ( especialy with MVP )
 
