@@ -68,6 +68,12 @@ img {
   position: absolute;  
     top: 0px;
 }
+
+.navbar.navbar-inverse {
+  position : fixed;
+  width : 100%;
+}
+
 #navigation a { color: white; }
 #navigation ul { display: block; margin:0; padding:0; }
 #navigation li { list-style-type: none; display: inline; margin:0 5px 0 5px;}
@@ -128,11 +134,18 @@ img {
 }
 */
 
-#content { width: 100%; float: left; padding-bottom: 20px; }
+#content { 
+  width: 100%; 
+  float: left; 
+  padding-bottom: 20px;
+  margin-top: 60px;
+}
+
 #content .wrapper { 
   min-width: 762px; 
   width: 762px; 
   margin: 0 auto; 
+
   /*padding-top: 1em*/
 }
 
