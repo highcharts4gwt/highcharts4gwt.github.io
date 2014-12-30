@@ -31,21 +31,20 @@ To know more about Highcharts please have a look to [highcharts web page](http:/
 
 {% highlight xml %}
 <build>
-    <plugins>
-		    ...
-			  <!-- GWT Maven Plugin -->
-			  <plugin>
-            ...
-				    <artifactId>gwt-maven-plugin</artifactId>
-            <configuration>
-            ...
-                <compileSourcesArtifacts>
-                    <artifact>com.github.highcharts4gwt:highcharts</artifact>
-                </compileSourcesArtifacts>
-            ...
-            </configuration>
-        </plugin> 
-    </plugins>
+	<plugins>
+		...
+		<!-- GWT Maven Plugin -->
+		<plugin>
+            		...
+			<artifactId>gwt-maven-plugin</artifactId>
+            		<configuration>
+            			...
+                		<compileSourcesArtifacts>
+                    			<artifact>com.github.highcharts4gwt:highcharts</artifact>
+                		</compileSourcesArtifacts>
+        		 </configuration>
+        	</plugin> 
+    	</plugins>
 </build>
 {% endhighlight %}
 
