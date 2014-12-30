@@ -21,8 +21,6 @@ To know more about Highcharts please have a look to [highcharts web page](http:/
 
 * Update your `pom.xml`
 
-Add the following dependency
-
 {% highlight xml %}
 <dependency>
     <groupId>com.github.highcharts4gwt</groupId>
@@ -31,16 +29,24 @@ Add the following dependency
 </dependency>
 {% endhighlight %}
 
-Add the following to the gwt-maven-plugin configuration part
-
 {% highlight xml %}
-<configuration>
-...
-    <compileSourcesArtifacts>
-        <artifact>com.github.highcharts4gwt:highcharts</artifact>
-    </compileSourcesArtifacts>
-...
-</configuration>
+<build>
+    <plugins>
+		    ...
+			  <!-- GWT Maven Plugin -->
+			  <plugin>
+            ...
+				    <artifactId>gwt-maven-plugin</artifactId>
+            <configuration>
+            ...
+                <compileSourcesArtifacts>
+                    <artifact>com.github.highcharts4gwt:highcharts</artifact>
+                </compileSourcesArtifacts>
+            ...
+            </configuration>
+        </plugin> 
+    </plugins>
+</build>
 {% endhighlight %}
 
 * Update you app.gwt.xml
