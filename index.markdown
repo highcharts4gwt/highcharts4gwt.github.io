@@ -19,7 +19,11 @@ To know more about Highcharts please have a look to [highcharts web page](http:/
 
 ## How to use it ?
 
-With maven : <br/>
+With maven  <br/>
+
+* Update your `pom.xml`
+
+Add the following dependency
 
 {% highlight xml %}
 <dependency>
@@ -28,7 +32,22 @@ With maven : <br/>
     <version>0.0.1</version>
 </dependency>
 {% endhighlight %}
-<br/>
+
+Add the following to the gwt-maven-plugin configuration part
+
+{% highlight xml %}
+<compileSourcesArtifacts>
+    <artifact>com.github.highcharts4gwt:highcharts</artifact>
+</compileSourcesArtifacts>
+{% endhighlight %}
+
+* Update you app.gwt.xml
+
+{% highlight xml %}
+<inherits name='com.github.highcharts4gwt.highcharts' />
+{% endhighlight %}
+
+You can have a look to the [testproject](https://github.com/highcharts4gwt/testproject) for a working example.
 
 Have a look to the <a href="{{site.demo_page}}"><span ><img src="/images/gcp-logo.png" width="37px"></img>demo on App Engine</span></a> you will find java code examples.
 
