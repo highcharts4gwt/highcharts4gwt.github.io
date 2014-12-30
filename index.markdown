@@ -35,16 +35,16 @@ To know more about Highcharts please have a look to [highcharts web page](http:/
 		...
 		<!-- GWT Maven Plugin -->
 		<plugin>
-            		...
+			...
 			<artifactId>gwt-maven-plugin</artifactId>
             		<configuration>
-            			...
-                		<compileSourcesArtifacts>
-                    			<artifact>com.github.highcharts4gwt:highcharts</artifact>
-                		</compileSourcesArtifacts>
-        		 </configuration>
-        	</plugin> 
-    	</plugins>
+				...
+				<compileSourcesArtifacts>
+					<artifact>com.github.highcharts4gwt:highcharts</artifact>
+				</compileSourcesArtifacts>
+			</configuration>
+		</plugin> 
+	</plugins>
 </build>
 {% endhighlight %}
 
