@@ -37,7 +37,7 @@ To know more about Highcharts please have a look to [highcharts web page](http:/
 		<plugin>
 			...
 			<artifactId>gwt-maven-plugin</artifactId>
-            		<configuration>
+			<configuration>
 				...
 				<compileSourcesArtifacts>
 					<artifact>com.github.highcharts4gwt:highcharts</artifact>
