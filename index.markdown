@@ -54,7 +54,7 @@ To know more about Highcharts please have a look to [highcharts web page](http:/
 <inherits name='com.github.highcharts4gwt.highcharts' />
 {% endhighlight %}
 
-*Update your `app.html`
+* Update your `app.html`
 
 {% highlight xml %}
 <script type="text/javascript" src="js/jquery/jquery-1.11.0.min.js"></script>
