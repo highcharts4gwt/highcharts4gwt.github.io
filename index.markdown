@@ -48,7 +48,7 @@ To know more about Highcharts please have a look to [highcharts web page](http:/
 </build>
 {% endhighlight %}
 
-* Update you `app.gwt.xml`
+* Update your `app.gwt.xml`
 
 {% highlight xml %}
 <inherits name='com.github.highcharts4gwt.highcharts' />
