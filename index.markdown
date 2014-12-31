@@ -48,10 +48,19 @@ To know more about Highcharts please have a look to [highcharts web page](http:/
 </build>
 {% endhighlight %}
 
-* Update you app.gwt.xml
+* Update you `app.gwt.xml`
 
 {% highlight xml %}
 <inherits name='com.github.highcharts4gwt.highcharts' />
+{% endhighlight %}
+
+*Update your `app.html`
+
+{% highlight xml %}
+<script type="text/javascript" src="js/jquery/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.highcharts.com/highcharts.js"></script>
+<script type="text/javascript" src="http://code.highcharts.com/highcharts-3d.js"></script>
+<script type="text/javascript" src="http://code.highcharts.com/highcharts-more.js"></script>
 {% endhighlight %}
 
 You can have a look at the [testproject](https://github.com/highcharts4gwt/testproject) for a working example.
