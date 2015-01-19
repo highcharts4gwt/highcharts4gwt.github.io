@@ -26,7 +26,7 @@ To know more about Highcharts please have a look to [highcharts web page](http:/
 <dependency>
     <groupId>com.github.highcharts4gwt</groupId>
     <artifactId>highcharts</artifactId>
-    <version>0.0.1</version>
+    <version>{{site.project_version}}</version>
 </dependency>
 {% endhighlight %}
 
