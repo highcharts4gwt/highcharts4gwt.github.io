@@ -14,7 +14,8 @@ title: Release notes | Highcharts4gwt
 * First available version
 
 
-known issue (not exhaustive)
+## Known issues (not exhaustive).
+Feel free to add new ones if you find something. Help is appreciated.
 
 * See [issues](https://github.com/highcharts4gwt/highcharts4gwt/issues)
 
