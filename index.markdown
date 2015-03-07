@@ -74,7 +74,7 @@ Have a look to the <a href="{{site.demo_page}}"><span ><img src="/images/gcp-log
 The goal was to write an API that was as close as possible to the JavaScript API so that by reading any example in JavaScript it would be easy to write it in GWT. To do that we use a fluent API. Here is what it looks like to create some chart options (GIN injection not used yet). You can see that the ChartOptions is a pure Java object and that there is no link at all with any widget.<br/><br/>
 
 {% highlight java %}
-ChartOptions options = (ChartOptions) JavaScriptObject.createObject();
+ChartOptions options = highchartsFactory.createChartOptions();
  
 options.chart().type("column");
 options.chart().margin().push(75);
@@ -85,7 +85,7 @@ options.title().text("Title 3D");
 
 options.plotOptions().column().depth(25);
 
-Series series = (Series) JavaScriptObject.createObject();
+Series series = highchartsFactory.createSeries();
 
 ArrayNumber data = series.data();
 data.push(29.9);
@@ -102,6 +102,9 @@ data.push(95.6);
 data.push(54.4);
 
 options.series().addToEnd(series);
+
+highchartsLayoutPanel.renderChart(options);
+
 {% endhighlight %}
 
 ## How can it be always up to date ? 
