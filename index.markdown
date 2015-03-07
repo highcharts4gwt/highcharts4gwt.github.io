@@ -12,7 +12,11 @@ title: Highcharts4gwt
     <a href="{{site.github_page}}"><i class="fa fa-github"></i><span >Github repositories</span></a>&nbsp;&nbsp;
     <a href="{{site.demo_page}}"><span ><img src="/images/gcp-logo.png" width="37px"></img>Demo on App Engine</span></a>
     <a href='https://pledgie.com/campaigns/27871'><img alt='Click here to lend your support to: highcharts4gwt and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/27871.png?skin_name=chrome' border='0' ></a>
+    <a href="https://groups.google.com/forum/#!forum/highcharts4gwt"><img src="/images/my-groups-color.png" width="50px"/>Highcharts4gwt google group</a>
 </div>
+
+
+
 
 <br/>
 
