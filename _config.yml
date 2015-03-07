@@ -2,7 +2,7 @@ markdown: redcarpet
 pygments: true
 project_name: Highcharts4gwt
 project_snapshot_version: 0.0-SNAPSHOT
-project_version: 0.0.2
-project_versions: [0.0.1,0.0.2]
+project_version: 0.0.3
+project_versions: [0.0.1,0.0.2,0.0.3]
 github_page: https://github.com/highcharts4gwt/
 demo_page: http://data-dragon-766.appspot.com/
