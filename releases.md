@@ -5,7 +5,7 @@ title: Release notes | Highcharts4gwt
 
 ## 0.0.3 - 7 march 2015
 
-* Capacity to add any field using ```set(fieldName, fieldValueAsJsonObject)``` (example [TreeMap](http://data-dragon-766.appspot.com/#ChartPlace:TreeMapWithColumnAxis))
+* Capacity to add any field using ```setFieldAsJsonObject(fieldName, fieldValueAsJsonObject)``` (example [TreeMap](http://data-dragon-766.appspot.com/#ChartPlace:TreeMapWithColumnAxis))
 * Factories for injection (no dependency on JavascriptObject inside presenters) [issues/8](https://github.com/highcharts4gwt/highcharts4gwt/issues/8)
 
 
