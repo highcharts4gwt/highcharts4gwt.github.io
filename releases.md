@@ -3,6 +3,10 @@ layout: default
 title: Release notes | Highcharts4gwt
 ---
 
+## 0.0.4 - 14 march 2015
+
+* Capacity to add function ```setFunctionAsString(String fieldName, String functionAsString);```
+
 ## 0.0.3 - 7 march 2015
 
 * Capacity to add any field using ```setFieldAsJsonObject(fieldName, fieldValueAsJsonObject)``` (example [TreeMap](http://data-dragon-766.appspot.com/#ChartPlace:TreeMapWithColumnAxis))

@@ -108,6 +108,17 @@ data.push(54.4);
 
 options.series().addToEnd(series);
 
+// To set a function
+String function = "function () " +
+    "{" +
+        "return 'The value for <b>' + this.x +'</b> is <b>' + this.y + '</b>';"+
+    "}";
+    
+options.tooltip().setFunctionAsString("formatter", function);
+
+//To set a field if no typed setter is available
+options.setFieldAsJsonObject("colorAxis", "{ \"minColor\" : \"#FFFFFF\", \"maxColor\" : \"#7cb5ec\"}");
+
 highchartsLayoutPanel.renderChart(options);
 
 {% endhighlight %}
