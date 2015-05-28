@@ -3,6 +3,11 @@ layout: default
 title: Release notes | Highcharts4gwt
 ---
 
+## 0.0.5 - 29 may 2015
+
+* Support new series<xxx> options but looses type safety :(
+* Fix bug [highcharts/issues/1](https://github.com/highcharts4gwt/highcharts/issues/1)
+
 ## 0.0.4 - 14 march 2015
 
 * Capacity to add function ```setFunctionAsString(String fieldName, String functionAsString);```

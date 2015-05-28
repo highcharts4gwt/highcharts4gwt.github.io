@@ -80,19 +80,18 @@ The goal was to write an API that was as close as possible to the JavaScript API
 
 {% highlight java %}
 ChartOptions options = highchartsFactory.createChartOptions();
- 
 options.chart().type("column");
 options.chart().margin().push(75);
 options.chart().options3d().enabled(true).alpha(15).beta(15).depth(50).viewDistance(25);
 
-options.subtitle().text("Subtitle 3D");
-options.title().text("Title 3D");
+options.title().text("Chart rotation demo");
+options.subtitle().text("Test options by dragging the sliders below");
 
 options.plotOptions().column().depth(25);
 
-Series series = highchartsFactory.createSeries();
+SeriesColumn series = highchartsFactory.createSeriesColumn();
 
-ArrayNumber data = series.data();
+ArrayNumber data = series.dataAsArrayNumber();
 data.push(29.9);
 data.push(71.5);
 data.push(106.4);
