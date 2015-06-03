@@ -3,6 +3,11 @@ layout: default
 title: Release notes | Highcharts4gwt
 ---
 
+## 0.0.6 - 3 jun 2015
+
+* Change naming of events. Drop the useless prefix. ChartAddSeriesEvent -> AddSeriesEvent
+* Fix bug [issues/15](https://github.com/highcharts4gwt/highcharts4gwt/issues/15)
+
 ## 0.0.5 - 29 may 2015
 
 * Support new series<xxx> options but looses type safety :(

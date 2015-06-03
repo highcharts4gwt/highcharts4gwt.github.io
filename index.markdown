@@ -105,6 +105,15 @@ data.push(194.1);
 data.push(95.6);
 data.push(54.4);
 
+series.addClickHandler(new ClickHandler()
+{
+    @Override
+    public void onClick(ClickEvent clickEvent)
+    {
+        Window.alert("The series has been clicked");
+    }
+});
+
 options.series().addToEnd(series);
 
 // To set a function
