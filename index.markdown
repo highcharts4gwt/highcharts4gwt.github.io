@@ -105,6 +105,7 @@ data.push(194.1);
 data.push(95.6);
 data.push(54.4);
 
+//Event callback
 series.addClickHandler(new ClickHandler()
 {
     @Override
@@ -114,9 +115,21 @@ series.addClickHandler(new ClickHandler()
     }
 });
 
+//Function callback
+series.tooltip().pointFormatter(new PointFormatterCallback()
+{
+    
+    @Override
+    public String onCallback(Point Point)
+    {
+        String value = "Custom point tooltip, point " + Point.categoryAsString() + ", value: " +  Point.y();
+        return value;
+    }
+});
+
 options.series().addToEnd(series);
 
-// To set a function
+// To set a function as string if needed (formatter case with no context object)
 String function = "function () " +
     "{" +
         "return 'The value for <b>' + this.x +'</b> is <b>' + this.y + '</b>';"+

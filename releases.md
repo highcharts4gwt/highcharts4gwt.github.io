@@ -3,6 +3,10 @@ layout: default
 title: Release notes | Highcharts4gwt
 ---
 
+## 0.0.7 - 30 jun 2015
+
+* Add support for functions callbacks (based on information given by highcharts option file). This will not be sufficient for the tooltip formatter case. But enables PointFormatter though.
+
 ## 0.0.6 - 3 jun 2015
 
 * Change naming of events. Drop the useless prefix. ChartAddSeriesEvent -> AddSeriesEvent
