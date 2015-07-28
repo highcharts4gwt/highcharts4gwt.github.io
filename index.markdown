@@ -79,68 +79,80 @@ Have a look to the <a href="{{site.demo_page}}"><span ><img src="/images/gcp-log
 The goal was to write an API that was as close as possible to the JavaScript API so that by reading any example in JavaScript it would be easy to write it in GWT. To do that we use a fluent API. Here is what it looks like to create some chart options (GIN injection not used yet). You can see that the ChartOptions is a pure Java object and that there is no link at all with any widget.<br/><br/>
 
 {% highlight java %}
-ChartOptions options = highchartsFactory.createChartOptions();
-options.chart().type("column");
-options.chart().margin().push(75);
-options.chart().options3d().enabled(true).alpha(15).beta(15).depth(50).viewDistance(25);
 
-options.title().text("Chart rotation demo");
-options.subtitle().text("Test options by dragging the sliders below");
-
-options.plotOptions().column().depth(25);
-
-SeriesColumn series = highchartsFactory.createSeriesColumn();
-
-ArrayNumber data = series.dataAsArrayNumber();
-data.push(29.9);
-data.push(71.5);
-data.push(106.4);
-data.push(129.2);
-data.push(144.0);
-data.push(176.0);
-data.push(135.6);
-data.push(148.5);
-data.push(216.4);
-data.push(194.1);
-data.push(95.6);
-data.push(54.4);
-
-//Event callback
-series.addClickHandler(new ClickHandler()
+public void onModuleLoad()
 {
-    @Override
-    public void onClick(ClickEvent clickEvent)
+
+    HighchartsLayoutPanel highchartsLayoutPanel = new HighchartsLayoutPanel();
+
+    //This should be injected by GIN, here as a simple example
+    HighchartsOptionFactory highchartsFactory = new JsoHighchartsOptionFactory();
+
+    RootLayoutPanel.get().add(highchartsLayoutPanel);
+
+    ChartOptions options = highchartsFactory.createChartOptions();
+    options.chart().type("column");
+    options.chart().margin().push(75);
+    options.chart().options3d().enabled(true).alpha(15).beta(15).depth(50).viewDistance(25);
+
+    options.title().text("Chart rotation demo");
+    options.subtitle().text("Test options by dragging the sliders below");
+
+    options.plotOptions().column().depth(25);
+
+    SeriesColumn series = highchartsFactory.createSeriesColumn();
+
+    ArrayNumber data = series.dataAsArrayNumber();
+    data.push(29.9);
+    data.push(71.5);
+    data.push(106.4);
+    data.push(129.2);
+    data.push(144.0);
+    data.push(176.0);
+    data.push(135.6);
+    data.push(148.5);
+    data.push(216.4);
+    data.push(194.1);
+    data.push(95.6);
+    data.push(54.4);
+
+    //Event callback
+    series.addClickHandler(new ClickHandler()
     {
-        Window.alert("The series has been clicked");
-    }
-});
+        @Override
+        public void onClick(ClickEvent clickEvent)
+        {
+            Window.alert("The series has been clicked");
+        }
+    });
 
-//Function callback
-series.tooltip().pointFormatter(new PointFormatterCallback()
-{
-    
-    @Override
-    public String onCallback(Point Point)
+    //Function callback
+    series.tooltip().pointFormatter(new PointFormatterCallback()
     {
-        String value = "Custom point tooltip, point " + Point.categoryAsString() + ", value: " +  Point.y();
-        return value;
-    }
-});
+        
+        @Override
+        public String onCallback(Point Point)
+        {
+            String value = "Custom point tooltip, point " + Point.categoryAsString() + ", value: " +  Point.y();
+            return value;
+        }
+    });
 
-options.series().addToEnd(series);
+    options.series().addToEnd(series);
 
-// To set a function as string if needed (formatter case with no context object)
-String function = "function () " +
-    "{" +
-        "return 'The value for <b>' + this.x +'</b> is <b>' + this.y + '</b>';"+
-    "}";
-    
-options.tooltip().setFunctionAsString("formatter", function);
+    // To set a function as string if needed (formatter case with no context object)
+    String function = "function () " +
+        "{" +
+            "return 'The value for <b>' + this.x +'</b> is <b>' + this.y + '</b>';"+
+        "}";
+        
+    options.tooltip().setFunctionAsString("formatter", function);
 
-//To set a field if no typed setter is available
-options.setFieldAsJsonObject("colorAxis", "{ \"minColor\" : \"#FFFFFF\", \"maxColor\" : \"#7cb5ec\"}");
+    //To set a field if no typed setter is available
+    options.setFieldAsJsonObject("colorAxis", "{ \"minColor\" : \"#FFFFFF\", \"maxColor\" : \"#7cb5ec\"}");
 
-highchartsLayoutPanel.renderChart(options);
+    highchartsLayoutPanel.renderChart(options);
+}
 
 {% endhighlight %}
 
